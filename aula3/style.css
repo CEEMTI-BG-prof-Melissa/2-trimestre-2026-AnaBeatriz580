@@ -1,0 +1,31 @@
+h1::before {
+    content: "😀";
+}
+
+p::after {
+    content: "(✿◡‿◡)";
+}
+
+.bio::first-letter {
+    color: lightblue;
+    font-size: 30px;
+}
+
+.bio::first-line {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.bio::selection {
+    color: pink;
+}
+
+input::placeholder {
+    font-style: italic;
+    color: lightgray;
+}
+
+ul {
+  color: rgb(191, 110, 228);  
+  font-size: 20px;
+}
